@@ -31,26 +31,7 @@ for(byte pin = 0; pin < NUM_ANALOG_INPUTS; pin++){
     }     
       
   } else if ((pin == 4 )||(pin == 5 )||(pin == 6 )){
-/*
-      if (pin == 4){//x
-      
-      char direccion[15];
-      strcpy(direccion, "/palito/esfe");
-      strcat(direccion, numToOSCAddress(pin));
-      bndl.add(direccion).add((float)(((float)(analogRead (pin))- 331.5)/65*9.8)); //form the OSC message}
-      } else if (pin == 5){//z
-      
-      char direccion[15];
-      strcpy(direccion, "/palito/esfe");
-      strcat(direccion, numToOSCAddress(pin));
-      bndl.add(direccion).add((float)(((float)(analogRead (pin))- 340)/68*9.8)); //form the OSC message}
-      } else {
-      
-      char direccion[15];
-      strcpy(direccion, "/palito/esfe");
-      strcat(direccion, numToOSCAddress(pin));
-      bndl.add(direccion).add((float)(((float)(analogRead (pin))- 329.5)/68.5*9.8)); //form the OSC message}
-      }*/
+
   }
 }
 
